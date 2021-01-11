@@ -1,0 +1,14 @@
+{
+    "name": "solid/solid-pro-services",
+    "authors": [
+        {
+            "name": "Juanjo Perez",
+            "email": "jjperez85@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "wp-cli/wp-cli-bundle": "^2.4",
+        "oscarotero/env": "^2.1"
+    }
+}

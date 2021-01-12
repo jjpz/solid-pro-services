@@ -18,13 +18,6 @@ use function Env\env;
 $root_dir = dirname(__DIR__);
 
 /**
- * Document Root
- *
- * @var string
- */
-$webroot_dir = $root_dir . '/web';
-
-/**
  * Use Dotenv to set required environment variables and load .env file in root
  */
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable($root_dir);
